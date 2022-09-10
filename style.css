@@ -1,12 +1,12 @@
 * {
         font-family: "Inter", sans-serif;
-        
+        position: relative;
     }
     
 body {
     background-image: linear-gradient(to right bottom, #94f0cc, #6de7db, #4adcea, #3ccff5, #51c0fa, #6bb9fd, #85b2fd, #9fa9f8, #b6a9fa, #cda8f9, #e2a8f7, #f6a7f2);
     background-attachment: fixed;
-    
+        
  }
 
  header {
@@ -18,9 +18,17 @@ body {
 
 main {
     display: flex;
-    margin-left: 80px;
-    margin-bottom: 50px;
+    align-items: center;
+    gap: 5px;
+    flex-direction: row;
+    justify-content: center;
+        
 } 
+
+section {
+    display: flex;
+    flex-direction: row;
+}
 
 .input-texto {
     margin: 5px;
@@ -29,12 +37,15 @@ main {
 }
 
 textarea {
-    resize: none;
     border-radius: 15px;
     background: #ffffff50;
     border: 2px solid #ffffff30;
     backdrop-filter: blur(10px);
-       
+    font-size: 25px;
+    text-align: justify;
+    text-indent: 15px;
+    
+    
 }
 
 textarea:hover{
@@ -89,11 +100,16 @@ button {
 
 .encriptar:hover{
     background-color: #80a8f2;
-    fon
+    
 }
 
 .desencriptar {
     background-color: #f6a7f2a1;
+    
+}
+
+.desencriptar:hover {
+    background-color: #f6a7f2be;
     
 }
 
@@ -117,3 +133,6 @@ button {
     
 }
 
+.copiar:hover {
+    background-color: #94f0cdd5;
+}
