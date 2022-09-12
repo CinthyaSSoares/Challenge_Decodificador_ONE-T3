@@ -16,6 +16,7 @@ margin: 50px;
 
 }
 
+
 main {
 display: flex;
 margin-left: 80px;
@@ -35,13 +36,16 @@ background: #ffffff50;
 border: 2px solid #ffffff30;
 backdrop-filter: blur(10px);
 font-size: 15px;
-   
+width: 45%;
+           
 }
 
 textarea:hover{
 background: #ffffff85;
 
 }
+
+/* Barra de rolagem editada */
 
 textarea::-webkit-scrollbar {
 width: 10px;
@@ -109,6 +113,7 @@ margin-top: 9px;
 margin-left: 40px;
 }
 
+
 .mensagem {
 margin: 5px;
 width: auto;
@@ -125,4 +130,18 @@ margin-left: 150px;
 
 .copiar:hover {
     background-color: #78e9bdd5;
+}
+
+footer p {
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: #000000;
+}
+
+footer img {
+    width: 38px;
+    margin-top: 5px;
 }

@@ -15,9 +15,9 @@
     <main>
 
         <section>
-            <textarea class="input-texto" cols="50" rows="23" placeholder="   Digite seu texto aqui   "></textarea>
-            <div id="div-desaparece">
-                <h6 class="informacao">Apenas letras minúsculas e sem acento.</h6>
+            <textarea class="input-texto" cols="50" rows="23" placeholder="     Digite um texto que você deseja criptografar ou descriptografar.   "></textarea>
+            <div id="legenda">
+                <h5 class="informacao"> ! Apenas letras minúsculas e sem acento.</h5>
             </div>
             <div class="botoes">
                 <button class="encriptar" onclick="btnEncriptar()">
@@ -28,21 +28,25 @@
                 </button>
             </div>
         </section>
-
         <div>
-
             <img src="boneco.gif" alt="boneco na frente do computador">
-
         </div>
-
         <section>
-            <textarea class="mensagem" cols="50" rows="23" placeholder="Nenhuma mensagem encontrada">  Digite um texto que você deseja criptografar ou descriptografar.  </textarea>
+            <textarea class="mensagem" cols="50" rows="23" > Nenhuma mensagem encontrada </textarea>
            <div id="div-aparece">
             <button class="copiar" onclick="copiar()">Copiar</button>
            </div>
-        </section>
-        
+        </section>        
     </main>
+    <footer>
+        <p>&copy; Desenvolvido por <a href="https://github.com/CinthyaSSoares" target="_blank"> Cinthya da Silva Soares</a> - 2022
+        </p>
+        <p><a href="https://github.com/CinthyaSSoares" target="_blank"><img src="git.png"></a>
+            <a href="https://www.linkedin.com/in/cinthya-da-silva-soares/" target="_blank"><img src="linkedin.png"></a>
+        </p>
+    </footer>
+
     <script src="script.js"></script>
+
 </body>
 </html>
